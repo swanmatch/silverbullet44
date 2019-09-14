@@ -66,7 +66,7 @@ LEDをはんだ付けします。
 ![](images/readme/process04.jpg)
 
 ### ソケット
-    ソケットをはんだ付けします。
+ソケットをはんだ付けします。
 ![](images/readme/process05.jpg)
 
 ### TRRS、リセットスイッチ
@@ -83,7 +83,7 @@ TRRS JACKとタクトスイッチを差し込み、
 保護プレートも本体と同様に、LEDをハンダ付けます
 ![](images/readme/process08.jpg)
 
-### 圧電サウンダ
+### 圧電サウンダ(オプション)
 1kΩ抵抗、ダイオード、圧電サウンダをはんだ付けします。
 
 ### ProMicro
