@@ -113,6 +113,9 @@ PCB裏側から丸スペーサーをネジ止めして、
 問題なければ全LEDが点灯するはずです。
 ![](images/readme/process13.jpg)
 
+LEDの順番は下記のとおりです。
+![](images/readme/process13-2.jpg)
+
 ### スイッチ
 トッププレートにスイッチをはめて、PCBに刺します。  
 これも最初に4角からはめるといいです。
@@ -134,7 +137,7 @@ QMKの環境構築についてはお使いのOSによって異なりなります
 ```sh
 git clone https://github.com/swanmatch/qmk_firmware.git
 cd qmk_firmware
-make silverbullet44:swan:avrdude
+make silverbullet44:default:avrdude
 ```
 
 ## 完成図
