@@ -165,6 +165,7 @@ QMKの環境構築についてはお使いのOSによって異なりなります
 ```sh
 git clone https://github.com/swanmatch/qmk_firmware.git
 cd qmk_firmware
+make git-submodule
 make silverbullet44:default:avrdude
 ```
 
