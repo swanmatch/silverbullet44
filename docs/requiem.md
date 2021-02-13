@@ -169,7 +169,7 @@ make git-submodule
 git checkout SilverBulletRequiem
 make silverbullet44/requiem:default:avrdude
 # via対応する場合
-# make silverbullet44/requiem/:default:avrdude
+# make silverbullet44/requiem/via/:default:avrdude
 ```
 
 ## 完成図
