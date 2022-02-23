@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "kbd")(type "Legacy")(uri "${KIPRJMOD}/foostan/library/kbd.lib")(options "")(descr "")(disabled))
+  (lib (name "silverbullet44")(type "Legacy")(uri "${KIPRJMOD}/silverbullet44.lib")(options "")(descr ""))
+  (lib (name "kbd2")(type "Legacy")(uri "${KIPRJMOD}/kbd.lib")(options "")(descr "")(disabled))
+)

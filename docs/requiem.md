@@ -1,7 +1,5 @@
 # SilverBulletRequiemビルドガイド
 
-## 材料
-
 <!--![](../images/buildguide/requiem/material01.jpg)
 ![](../images/buildguide/requiem/material02.jpg)-->
 
