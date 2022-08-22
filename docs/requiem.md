@@ -161,14 +161,14 @@ OLEDかプロマイクロのどちらかにカプトンテープを貼って絶�
 ファームウェアの書き込みは以下のコマンドを叩きます。  
 QMKの環境構築についてはお使いのOSによって異なりなりますので、
 公式ドキュメントを読んでください。
+
 ```sh
 git clone https://github.com/swanmatch/qmk_firmware.git
 cd qmk_firmware
 make git-submodule
-git checkout SilverBulletRequiem
 make silverbullet44/requiem:default:avrdude
 # via対応する場合
-# make silverbullet44/requiem/via/:default:avrdude
+make silverbullet44/requiem/via:default:avrdude
 ```
 
 各種コンパイル済みのファームウェアも[こちら](https://github.com/swanmatch/silverbullet44/releases/tag/requiem)に置いておきます。  
