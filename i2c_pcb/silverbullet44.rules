@@ -5,13 +5,13 @@
   )
   (autoroute_settings
     (fanout off)
-    (autoroute on)
+    (eu.mihosoft.freerouting.autoroute on)
     (postroute on)
     (vias on)
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 6796)
+    (start_pass_no 6799)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -59,6 +59,8 @@
     POWER "Via[0-1]_800:400_um-POWER"
   )
   (class default
+    LSCL LSDA "unconnected-(L22-Pad2)" "unconnected-(P1-Pad5)" "unconnected-(P1-Pad6)" "unconnected-(P1-Pad11)" "unconnected-(P1-Pad12)" "unconnected-(TRRS1-PadB)"
+    "unconnected-(U1-Pad19)" "unconnected-(U1-Pad20)" "unconnected-(U1-Pad24)" "unconnected-(U1-Pad10)" "unconnected-(U1-Pad15)"
     (clearance_class default)
     (via_rule default)
     (rule
@@ -72,12 +74,11 @@
     ROW0 "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(D3-Pad2)" "Net-(D4-Pad2)" "Net-(D5-Pad2)" "Net-(D6-Pad2)" ROW1
     "Net-(D7-Pad2)" "Net-(D8-Pad2)" "Net-(D9-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)" "Net-(D12-Pad2)" ROW2 "Net-(D13-Pad2)"
     "Net-(D14-Pad2)" "Net-(D15-Pad2)" "Net-(D16-Pad2)" "Net-(D17-Pad2)" "Net-(D18-Pad2)" "Net-(D19-Pad2)" ROW3 "Net-(D20-Pad2)"
-    "Net-(D21-Pad2)" "Net-(D22-Pad2)" "Net-(J1-Pad1)" DATA LED SDA SCL SPEKER
-    COL0 COL1 COL2 COL3 COL4 COL5 RST "Net-(U1-Pad24)"
-    "Net-(U1-Pad14)" "Net-(U1-Pad12)" "Net-(U1-Pad11)" "Net-(D23-Pad1)" "Net-(J3-Pad1)" "Net-(J6-Pad1)" "Net-(L1-Pad2)" "Net-(L2-Pad2)"
-    "Net-(L3-Pad2)" "Net-(L4-Pad2)" "Net-(L5-Pad2)" "Net-(L6-Pad2)" "Net-(L7-Pad2)" "Net-(L10-Pad4)" "Net-(L10-Pad2)" "Net-(L11-Pad2)"
-    "Net-(L12-Pad2)" "Net-(L13-Pad2)" "Net-(L14-Pad2)" "Net-(L15-Pad2)" "Net-(L16-Pad2)" "Net-(L17-Pad2)" "Net-(L18-Pad2)" "Net-(L19-Pad2)"
-    "Net-(L20-Pad2)" "Net-(L8-Pad2)" "Net-(L21-Pad2)"
+    "Net-(D21-Pad2)" "Net-(D22-Pad2)" DATA LED SDA SCL COL0 COL1
+    COL2 COL3 COL4 COL5 RST "Net-(L1-Pad2)" "Net-(L2-Pad2)" "Net-(L3-Pad2)"
+    "Net-(L4-Pad2)" "Net-(L5-Pad2)" "Net-(L6-Pad2)" "Net-(L7-Pad2)" "Net-(L10-Pad4)" "Net-(L10-Pad2)" "Net-(L11-Pad2)" "Net-(L12-Pad2)"
+    "Net-(L13-Pad2)" "Net-(L14-Pad2)" "Net-(L15-Pad2)" "Net-(L16-Pad2)" "Net-(L17-Pad2)" "Net-(L18-Pad2)" "Net-(L19-Pad2)" "Net-(L20-Pad2)"
+    "Net-(L8-Pad2)" "Net-(L21-Pad2)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
@@ -88,7 +89,7 @@
     )
   )
   (class POWER
-    VCC GND "Net-(J4-Pad1)" BAT+
+    VCC GND LVCC
     (clearance_class POWER)
     (via_rule POWER)
     (rule
