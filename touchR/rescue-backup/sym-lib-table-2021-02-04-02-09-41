@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name MTCH6102_breakout-rescue)(type Legacy)(uri ${KIPRJMOD}/MTCH6102_breakout-rescue.lib)(options "")(descr ""))
+)
